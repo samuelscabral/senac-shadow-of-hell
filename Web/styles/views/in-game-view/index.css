@@ -1,0 +1,25 @@
+@import url("./dialog-view.css");
+
+.inGameView {
+    width : 100%;
+    height: 100%;
+
+    display              : grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows   : 3fr 1fr;
+    grid-template-areas  :
+        "board board"
+        "info dialog";
+}
+
+.inGameView>* {
+    border: 1px solid white;
+}
+
+.inGameView_image {
+    grid-area: board;
+}
+
+.inGameView_enemyInfo {
+    position: absolute;
+}

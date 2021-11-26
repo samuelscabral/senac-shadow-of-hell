@@ -1,0 +1,21 @@
+.mainMenu {
+    width : 100%;
+    height: 100%;
+
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    align-items    : center;
+}
+
+.mainMenu_header {
+    font-family: 'MedievalSharp', cursive;
+    font-size  : 5rem;
+}
+
+.mainMenu_buttons {
+    display       : flex;
+    flex-direction: column;
+    gap           : 5px;
+    width         : 240px;
+}

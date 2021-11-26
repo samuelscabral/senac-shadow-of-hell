@@ -1,0 +1,23 @@
+@import url("./views/main-menu.css");
+@import url("./views/in-game-view/index.css");
+
+.button {
+    background-color: transparent;
+    color           : white;
+
+    border       : 0.1rem solid white;
+    padding      : 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.button:focus {
+    background-color: grey;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.button:active {
+    background-color: white;
+}

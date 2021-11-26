@@ -1,0 +1,394 @@
+{
+    "Guardiao Guerreiro": {
+        "atributos": {
+            "vida": 100,
+            "resiliencia": 10,
+            "fe": 10,
+            "agilidade": 10,
+            "forca": 10,
+            "astucia": 2
+        },
+        "habilidades": {
+            "ataque": [
+                {
+                    "nome": "Investida",
+                    "descricao": "avança em direção ao inimigo com toda a força de seu corpo para causar um dano massivo",
+                    "poder_inicial": 10,
+                    "fator_astucia": 3,
+                    "fator_agilidade": 1
+                },
+                {
+                    "nome": "Zéfiro Mortal",
+                    "descricao": "usa a agilidade de seu corpo para esquivar de seu oponente e causar dano",
+                    "poder_inicial": 0,
+                    "efeito": "sagacidade",
+                    "chance_efeito_inicial": 30,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 3,
+                    "fator_efeito_astucia": 1
+                },
+                {
+                    "nome": "Sabre da Serpente",
+                    "descricao": "envenena sua lâmina e desfere um golpe preciso",
+                    "poder_inicial": 0,
+                    "efeito": "Envenenamento",
+                    "chance_efeito_inicial": 10,
+                    "fator_astucia": 0,
+                    "fator_agilidade": 0,
+                    "fator_efeito_agilidade": 2,
+                    "fator_efeito_astucia": 2
+                }
+            ],
+            "defesa": [
+                {
+                    "nome": "Aparar",
+                    "descricao": "apara o golpe de seu oponente e contra-ataca rapidamente com sua espada",
+                    "poder_inicial": 5,
+                    "efeito": "contra-ataque",
+                    "chance_efeito_inicial": 50,
+                    "fator_astucia": 2,
+                    "fator_agilidade": 2,
+                    "fator_efeito_agilidade": 2,
+                    "fator_efeito_astucia": 2
+                },
+                {
+                    "nome": "Escudo Dourado de Salomão",
+                    "descricao": "usa seu escudo divino que protege de ataques inimigo",
+                    "poder_inicial": 10,
+                    "efeito": "escudo",
+                    "chance_efeito_inicial": 100,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 0,
+                    "fator_efeito_astucia": 0
+                },
+                {
+                    "nome": "Zéfiro Angelical",
+                    "descricao": "se torna ágil e leve como o vento conseguindo desviar de ataques inimigos",
+                    "poder_inicial": 0,
+                    "efeito": "desviar",
+                    "chance_efeito_inicial": 50,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 1,
+                    "fator_efeito_astucia": 3
+                }
+            ]
+        }
+    },
+    "Guardiao Mago": {
+        "atributos": {
+            "vida": 100,
+            "resiliencia": 10,
+            "fe": 10,
+            "agilidade": 10,
+            "forca": 2,
+            "astucia": 10
+        },
+        "habilidades": {
+            "ataque": [
+                {
+                    "nome": "Singularidade",
+                    "descricao": "conjura raios de luz e concentra em um único ponto de seu inimigo, a fim de causar um dano massivo",
+                    "poder_inicial": 5,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3
+                },
+                {
+                    "nome": "Subterfúgio Celestial",
+                    "descricao": "conjura uma ilusão de sua própria imagem, para destrair seu inimigo e desferir um golpe mais preciso",
+                    "poder_inicial": 5,
+                    "efeito": "sagacidade",
+                    "chance_efeito_inicial": 30,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 1,
+                    "fator_efeito_astucia": 3
+                },
+                {
+                    "nome": "Feixes Divino",
+                    "descricao": "lança feixes de luz nos olhos de seu inimigo",
+                    "poder_inicial": 5,
+                    "efeito": "Queimaduras",
+                    "chance_efeito_inicial": 30,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 1,
+                    "fator_efeito_astucia": 3
+                }
+            ],
+            "defesa": [
+                {
+                    "nome": "Teleporte",
+                    "descricao": "tenta se teletransportar para longe do ataque inimigo",
+                    "poder_inicial": 5,
+                    "efeito": "Desviar",
+                    "chance_efeito_inicial": 30,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 1,
+                    "fator_efeito_astucia": 3
+                },
+                {
+                    "nome": "Reflexão",
+                    "descricao": "tenta criar uma barreira mágica que retorna parte do dano recebido",
+                    "poder_inicial": 5,
+                    "efeito": "contra-ataque",
+                    "chance_efeito_inicial": 30,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 1,
+                    "fator_efeito_astucia": 3
+                },
+                {
+                    "nome": "Barreia de Luz",
+                    "descricao": "cria uma barreira de luz que desintrega magia",
+                    "poder_inicial": 5,
+                    "efeito": "sagacidade",
+                    "chance_efeito_inicial": 30,
+                    "fator_astucia": 1,
+                    "fator_agilidade": 3,
+                    "fator_efeito_agilidade": 1,
+                    "fator_efeito_astucia": 3
+                }
+            ]
+        }
+    },
+    "Demonio Inferior": {
+        "nome": "Demonio Inferior",
+        "atributos": {
+            "vida": 70,
+            "resiliencia": 10,
+            "fe": 10,
+            "agilidade": 10,
+            "forca": 15,
+            "astucia": 15
+        },
+        "habilidades": {
+            "ataque": [
+                {
+                    "nome": "Ataque Infernal",
+                    "descricao": "acende as chamas de sua espada e desfere um golpe mortal",
+                    "poder_inicial": 10,
+                    "efeito": "queimaduras",
+                    "chance_efeito_inicial": 50
+                },
+                {
+                    "nome": "Ataque demoníaco",
+                    "descricao": "faz chamas negras saírem de seu corpo e avança em sua direção",
+                    "poder_inicial": 10,
+                    "efeito": "Envenenamento",
+                    "chance_efeito_inicial": 50
+                },
+                {
+                    "nome": "Bola de Fogo",
+                    "descricao": "conjura e lança bolas de fogo",
+                    "poder_inicial": 10,
+                    "efeito": "Envenenamento",
+                    "chance_efeito_inicial": 50
+                }
+            ],
+            "defesa": [
+                {
+                    "nome": "Labaredas de Fogo Infernais",
+                    "descricao": "ascende labaredas de fogo infernais envolta de si mesmo e devolve parte do dano a quem a ataca",
+                    "poder_inicial": 0,
+                    "efeito": "Contra-Ataque",
+                    "chance_efeito_inicial": 50
+                },
+                {
+                    "nome": "Carapaça demoníaca",
+                    "descricao": "se defende de ataques com sua carapaça",
+                    "poder_inicial": 10,
+                    "efeito": "Escudo",
+                    "chance_efeito_inicial": 100
+                },
+                {
+                    "nome": "Asas de Lúcifer",
+                    "descricao": "voa o mais longe possível de seu ataque",
+                    "poder_inicial": 0,
+                    "efeito": "Desviar",
+                    "chance_efeito_inicial": 60
+                }
+            ]
+        }
+    },
+    "Demonio Herege": {
+        "nome": "Demonio Herege",
+        "atributos": {
+            "vida": 80,
+            "resiliencia": 20,
+            "fe": 20,
+            "agilidade": 20,
+            "forca": 20,
+            "astucia": 20
+        },
+        "habilidades": {
+            "ataque": [
+                {
+                    "nome": "Corrente de Andrômeda",
+                    "descricao": "usa uma corrente mágica para tentar prender seu alvo e causar um dano massivo",
+                    "poder_inicial": 15,
+                    "efeito": "Sagacidade e Queimaduras",
+                    "chance_efeito_inicial": 100
+                },
+                {
+                    "nome": "Espiral de Andrômeda",
+                    "descricao": "invoca um espiral de fogo em direção ao seu alvo",
+                    "poder_inicial": 15,
+                    "efeito": "Queimaduras",
+                    "chance_efeito_inicial": 30
+                },
+                {
+                    "nome": "Bumerangue de Andrômeda",
+                    "descricao": "lança um boomerange mágico",
+                    "poder_inicial": 15,
+                    "efeito": "Queimaduras",
+                    "chance_efeito_inicial": 100
+                }
+            ],
+            "defesa": [
+                {
+                    "nome": "Rendeçao Infernal",
+                    "descricao": "Se cura e restaura seus atributos",
+                    "poder_inicial": 20,
+                    "efeito": "Debuff e Cura",
+                    "chance_efeito_inicial": 100
+                },
+                {
+                    "nome": "Defesa Circular",
+                    "descricao": "se defende de ataques físicos com sua carapaça",
+                    "poder_inicial": 10,
+                    "efeito": "Escudo",
+                    "chance_efeito_inicial": 10
+                },
+                {
+                    "nome": "Grande Captura de Andrômeda",
+                    "descricao": "invoca uma armadilha mágica enfraquece e causa danos e paralisa quem o ataca, conseguindo desviar facilmente",
+                    "poder_inicial": 20,
+                    "efeito": "Contra-Ataque e Desviar",
+                    "chance_efeito_inicial": 70
+                }
+            ]
+        }
+    },
+    "Demonio Superior": {
+        "nome": "Demonio Superior",
+        "atributos": {
+            "vida": 90,
+            "resiliencia": 25,
+            "fe": 25,
+            "agilidade": 20,
+            "forca": 20,
+            "astucia": 20
+        },
+        "habilidades": {
+            "ataque": [
+                {
+                    "nome": "Cólera dos Mil Demônios",
+                    "descricao": "infecta o ar com uma fumaça negra, que queima e envenena seus alvos, para se camuflar e atacar seu oponente de surpresa",
+                    "poder_inicial": 20,
+                    "efeito": "Queimaduras, Envenenamento e Sagacidade",
+                    "chance_efeito_inicial": 60
+                },
+                {
+                    "nome": "Sacramento da morte",
+                    "descricao": "desfere um golpe com sua foice",
+                    "poder_inicial": 20,
+                    "efeito": "Envenenamento",
+                    "chance_efeito_inicial": 30
+                },
+                {
+                    "nome": "Tempestade Nebulosa",
+                    "descricao": "invoca uma tempestade ácida que queima seus oponentes",
+                    "poder_inicial": 20,
+                    "efeito": "Queimaduras",
+                    "chance_efeito_inicial": 30
+                }
+            ],
+            "defesa": [
+                {
+                    "nome": "Benção Demoníaca",
+                    "descricao": "invoca a benção dos demônios para se curar e restaurar suas defesas",
+                    "poder_inicial": 20,
+                    "efeito": "Cura e Debuff",
+                    "chance_efeito_inicial": 50
+                },
+                {
+                    "nome": "Couraça Infernal",
+                    "descricao": "se defende de ataques com sua carapaça",
+                    "poder_inicial": 30,
+                    "efeito": "Escudo",
+                    "chance_efeito_inicial": 10
+                },
+                {
+                    "nome": "Asas Demoníaca",
+                    "descricao": "voa o mais longe possível de seu ataque",
+                    "poder_inicial": 30,
+                    "efeito": "Desviar",
+                    "chance_efeito_inicial": 10
+                }
+            ]
+        }
+    },
+    "Valefar": {
+        "nome": "Valefar",
+        "atributos": {
+            "vida": 120,
+            "resiliencia": 25,
+            "fe": 25,
+            "agilidade": 20,
+            "forca": 20,
+            "astucia": 20
+        },
+        "habilidades": {
+            "ataque": [
+                {
+                    "nome": "Esfera da morte",
+                    "descricao": "invoca uma esfera que enfraquece tudo que se aproxima",
+                    "poder_inicial": 25,
+                    "efeito": "Queimaduras e Envenenamento",
+                    "chance_efeito_inicial": 30
+                },
+                {
+                    "nome": "Sopro de Dragão",
+                    "descricao": "envenena o ar com uma nuvem tóxica",
+                    "poder_inicial": 25,
+                    "efeito": "Queimaduras e Sagacidade",
+                    "chance_efeito_inicial": 100
+                },
+                {
+                    "nome": "Bola de Fogo",
+                    "descricao": "conjura e lança bolas de fogo",
+                    "poder_inicial": 25,
+                    "efeito": "Queimaduras",
+                    "chance_efeito_inicial": 30
+                }
+            ],
+            "defesa": [
+                {
+                    "nome": "Barreira da Tormenta",
+                    "descricao": "invoca uma barreira elétrica ",
+                    "poder_inicial": 100,
+                    "efeito": "Contra-Ataque",
+                    "chance_efeito_inicial": 10
+                },
+                {
+                    "nome": "Couraça dos Dragões",
+                    "descricao": "se defende de ataques com sua couraça",
+                    "poder_inicial": 50,
+                    "efeito": "Escudo",
+                    "chance_efeito_inicial": 10
+                },
+                {
+                    "nome": "Asas de Dragão",
+                    "descricao": "voa o mais longe possível de seu ataque",
+                    "poder_inicial": 10,
+                    "efeito": "Desviar",
+                    "chance_efeito_inicial": 10
+                }
+            ]
+        }
+    }
+}
